@@ -1,0 +1,33 @@
+.scroll-content {
+	overflow: hidden;
+	border: 1px solid #c9c9c9;
+}
+.scroll-content, .scroll-block {
+	position: relative;
+}
+.scroll-block {
+	overflow: auto;
+	overflow-x: hidden;
+}
+.scroll-bar {
+	position: absolute;
+	top: 0;
+	right: 0;
+	height: 100%;
+}
+.s-bar-top, .s-bar-bottom {
+	position: absolute;
+	right: 0;
+}
+.s-bar-top {
+	top: 0;
+}
+.s-bar-bottom {
+	bottom: 0;
+}
+.s-bar-middle {
+	position: relative;
+}
+.s-bar-slider {
+	position: absolute;
+}
